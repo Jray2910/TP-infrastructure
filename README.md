@@ -12,7 +12,7 @@ Ce dépôt rassemble les configurations, les procédures et les vérifications d
 | B1 · Nginx avec OpenTofu | [b1-nginx-opentofu](ateliers/b1-nginx-opentofu/) |
 | B2 · Catalogue Node.js, PostgreSQL et Redis | [b2-catalogue-node-postgres-redis](ateliers/b2-catalogue-node-postgres-redis/) |
 | B3 · Nginx avec Puppet | [b3-nginx-puppet](ateliers/b3-nginx-puppet/) |
-| B4 · Nginx avec Ansible | `ateliers/b4-nginx-ansible/` |
+| B4 · Nginx avec Ansible | [b4-nginx-ansible](ateliers/b4-nginx-ansible/) |
 | TP 01 · Node.js avec Docker et Minikube | `tp/01-docker-minikube-node/` |
 | TP 02 · Infrastructure as Code pour WebSolutions | `tp/02-infrastructure-as-code-websolutions/` |
 | TP 03 · OpenTofu avancé | `tp/03-opentofu-avance/` |
