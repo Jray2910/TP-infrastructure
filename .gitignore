@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+*.tfvars
+!*.tfvars.example
+*.tfvars.json
+.terraform/
+*.tfstate*
+*.tfplan
+kubeconfig*
+/Essentiels_infrastructure_SI.pdf
+/Introduction_TP_Infrastructure_et_Livrable_Git.pdf
