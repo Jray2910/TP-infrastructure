@@ -9,7 +9,7 @@ Ce dépôt rassemble les configurations, les procédures et les vérifications d
 | A3 · Réseau de la VM | [a3-reseau-vm](ateliers/a3-reseau-vm/) |
 | A4 · Stockage virtuel | [a4-stockage-virtuel](ateliers/a4-stockage-virtuel/) |
 | A5 · Nginx avec Minikube | [a5-nginx-minikube](ateliers/a5-nginx-minikube/) |
-| B1 · Nginx avec OpenTofu | `ateliers/b1-nginx-opentofu/` |
+| B1 · Nginx avec OpenTofu | [b1-nginx-opentofu](ateliers/b1-nginx-opentofu/) |
 | B2 · Catalogue Node.js, PostgreSQL et Redis | `ateliers/b2-catalogue-node-postgres-redis/` |
 | B3 · Nginx avec Puppet | `ateliers/b3-nginx-puppet/` |
 | B4 · Nginx avec Ansible | `ateliers/b4-nginx-ansible/` |
