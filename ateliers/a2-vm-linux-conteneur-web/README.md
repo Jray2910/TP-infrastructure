@@ -39,7 +39,17 @@ Les deux requêtes doivent renvoyer `200`. Dans la VM, le port 8088 est publié 
 
 ## État de la vérification
 
-La VM et les deux redirections NAT ont été créées dans VirtualBox. L’empreinte SHA-256 de l’ISO Ubuntu Server 24.04.5 correspond à celle publiée par Ubuntu. L’installation automatique a atteint la génération de l’image de démarrage du noyau. Le premier démarrage sur disque, la connexion SSH et les deux réponses HTTP restent à valider.
+L’empreinte SHA-256 de l’ISO Ubuntu Server 24.04.5 correspond à celle publiée par Ubuntu. Après le démarrage sur disque, la connexion SSH au compte `lab` a réussi.
+
+| Vérification | Résultat observé |
+| --- | --- |
+| `ip -4 -br addr` | `enp0s3` active, adresse NAT `10.0.2.15/24` |
+| `ip route` | Route par défaut via `10.0.2.2` sur `enp0s3` |
+| `sudo docker exec web-vm nginx -t` | Configuration Nginx valide |
+| Requête HTTP dans UbuntuDev | `200` |
+| Requête HTTP depuis Windows via la redirection NAT | `200` |
+
+Le conteneur `web-vm` a été retiré après les deux tests HTTP.
 
 ## Nettoyer
 
