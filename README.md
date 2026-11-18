@@ -7,8 +7,8 @@ Ce dépôt rassemble les configurations, les procédures et les vérifications d
 | A1 · MongoDB avec Docker | [a1-mongodb-docker](ateliers/a1-mongodb-docker/) |
 | A2 · VM Linux et conteneur web | [a2-vm-linux-conteneur-web](ateliers/a2-vm-linux-conteneur-web/) |
 | A3 · Réseau de la VM | [a3-reseau-vm](ateliers/a3-reseau-vm/) |
-| A4 · Stockage virtuel | `ateliers/a4-stockage-virtuel/` |
-| A5 · Nginx avec Minikube | `ateliers/a5-nginx-minikube/` |
+| A4 · Stockage virtuel | [a4-stockage-virtuel](ateliers/a4-stockage-virtuel/) |
+| A5 · Nginx avec Minikube | [a5-nginx-minikube](ateliers/a5-nginx-minikube/) |
 | B1 · Nginx avec OpenTofu | `ateliers/b1-nginx-opentofu/` |
 | B2 · Catalogue Node.js, PostgreSQL et Redis | `ateliers/b2-catalogue-node-postgres-redis/` |
 | B3 · Nginx avec Puppet | `ateliers/b3-nginx-puppet/` |
