@@ -1,0 +1,36 @@
+---
+- name: Configurer le frontal WebSolutions
+  hosts: test
+  become: true
+  tasks:
+    - name: Installer Nginx
+      ansible.builtin.apt:
+        name: nginx
+        state: present
+
+    - name: Installer la configuration WebSolutions
+      ansible.builtin.copy:
+        src: websolutions.conf
+        dest: /etc/nginx/conf.d/websolutions-test.conf
+        owner: root
+        group: root
+        mode: "0644"
+      notify: Valider et recharger Nginx
+
+    - name: Activer et démarrer Nginx
+      ansible.builtin.service:
+        name: nginx
+        enabled: true
+        state: started
+
+  handlers:
+    - name: Vérifier la configuration Nginx
+      ansible.builtin.command: nginx -t
+      changed_when: false
+      listen: Valider et recharger Nginx
+
+    - name: Recharger Nginx
+      ansible.builtin.service:
+        name: nginx
+        state: reloaded
+      listen: Valider et recharger Nginx

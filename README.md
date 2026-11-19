@@ -14,5 +14,5 @@ Ce dépôt rassemble les configurations, les procédures et les vérifications d
 | B3 · Nginx avec Puppet | [b3-nginx-puppet](ateliers/b3-nginx-puppet/) |
 | B4 · Nginx avec Ansible | [b4-nginx-ansible](ateliers/b4-nginx-ansible/) |
 | TP 01 · Node.js avec Docker et Minikube | [01-docker-minikube-node](tp/01-docker-minikube-node/) |
-| TP 02 · Infrastructure as Code pour WebSolutions | `tp/02-infrastructure-as-code-websolutions/` |
+| TP 02 · Infrastructure as Code pour WebSolutions | [02-infrastructure-as-code-websolutions](tp/02-infrastructure-as-code-websolutions/) |
 | TP 03 · OpenTofu avancé | `tp/03-opentofu-avance/` |
