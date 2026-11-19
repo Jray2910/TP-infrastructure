@@ -1,0 +1,7 @@
+apiVersion: 1
+
+providers:
+  - name: TP 03
+    type: file
+    options:
+      path: /etc/grafana/lab-dashboards
